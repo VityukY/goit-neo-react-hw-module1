@@ -1,7 +1,7 @@
 import './App.css'
 import Profile from './components/Profile/Profile'
 import userData from './userData.json'
-
+import 'modern-normalize'
 function App() {
 
   return (

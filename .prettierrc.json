@@ -6,11 +6,9 @@
   "trailingComma": "es5",
   "bracketSpacing": true,
   "arrowParens": "avoid",
-  "proseWrap": "always",
-
-  "files": "*.jsx",
-  "options": {
-    "printWidth": 80,
-    "singleQuote": true
-  }
+  "proseWrap": "never",
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "lf"
 }

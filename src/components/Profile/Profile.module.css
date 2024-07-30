@@ -1,0 +1,58 @@
+.profileCard {
+   width: 600px;
+   border: 1px solid #e0e0e0;
+   border-radius: 8px;
+   overflow: hidden;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   font-family: Arial, sans-serif;
+}
+
+.header {
+   padding: 20px;
+   background-color: #f7f7f7;
+}
+
+.avatar {
+   width: 280px;
+   height: 280px;
+   border-radius: 50%;
+}
+
+.nameTitle {
+   margin: 10px 0 5px;
+   font-size: 20px;
+   color: black;
+}
+
+.description {
+   margin: 0;
+   font-size: 16px;
+   color: #999;
+}
+
+.statList {
+   display: flex;
+   border-top: 1px solid #e0e0e0;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.statElement {
+   flex: 1;
+   padding: 10px 0;
+   background-color: #f9f9f9;
+   border-right: 1px solid #e0e0e0;
+}
+
+.statElement:last-child {
+   border-right: none;
+}
+
+.statScores {
+   display: block;
+   margin: 0;
+   font-size: 18px;
+   color: #000000;
+}
