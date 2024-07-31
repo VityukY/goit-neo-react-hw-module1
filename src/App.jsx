@@ -1,6 +1,8 @@
 import './App.css'
 import Profile from './components/Profile/Profile'
+import FriendList from './components/FriendList/FriendList'
 import userData from './userData.json'
+import friends from './friends.json'
 import 'modern-normalize'
 function App() {
 
@@ -13,6 +15,7 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
+       <FriendList friends={friends} />
     </>
   )
 }
