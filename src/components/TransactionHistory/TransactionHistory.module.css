@@ -1,0 +1,28 @@
+.table {
+   width: 600px;
+   border-collapse: collapse;
+ }
+ 
+ .header {
+   background-color: #000000;
+   color: #ffffff;
+ }
+ 
+ .header th {
+   padding: 10px;
+ }
+ 
+ .row {
+   background-color: #f0f0f0;
+ }
+ 
+ .row:nth-child(even) {
+   background-color: #ffffff;
+ }
+ 
+ .row td {
+   padding: 10px;
+   border: 1px solid #dddddd;
+   text-align: center;
+ }
+ 
